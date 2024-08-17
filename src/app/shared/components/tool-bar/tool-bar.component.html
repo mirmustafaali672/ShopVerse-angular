@@ -1,0 +1,41 @@
+<div
+  fxFlex
+  fxLayout="row"
+  class="toolbar-container"
+  fxLayoutAlign="center center"
+>
+  <div fxFlex="5">
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+
+  <div fxFlex="70" fxLayoutAlign="center center">
+    <h1>{{ "AppName" | translate }}</h1>
+  </div>
+  <div fxFlex="20" fxLayout="row" fxLayoutAlign="center center">
+    <div>
+      <button mat-button>
+        <span> {{ "About" | translate }} </span>
+      </button>
+    </div>
+    <div>
+      <button mat-button>
+        <span> {{ "FAQ" | translate }} </span>
+      </button>
+    </div>
+    <div>
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        <mat-icon>shopping_cart</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>
