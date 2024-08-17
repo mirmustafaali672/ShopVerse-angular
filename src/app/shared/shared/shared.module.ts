@@ -5,6 +5,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { TranslateModule } from '@ngx-translate/core';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatRippleModule } from '@angular/material/core';
 
 
 @NgModule({
@@ -15,14 +18,20 @@ import { TranslateModule } from '@ngx-translate/core';
     MatToolbarModule, 
     MatButtonModule, 
     MatIconModule,
-    TranslateModule
+    TranslateModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatRippleModule
   ],
   exports: [
     FlexLayoutModule,
     MatToolbarModule, 
     MatButtonModule, 
     MatIconModule,
-    TranslateModule
+    TranslateModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatRippleModule
   ]
 })
 export class SharedModule { }

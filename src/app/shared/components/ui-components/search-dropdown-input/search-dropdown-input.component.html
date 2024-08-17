@@ -1,0 +1,13 @@
+<div class="custom-input" fxLayout="row" fxLayoutAlign="space-between center">
+  <input
+  autocomplete="off"
+    class="input-class"
+    fxFlex="80"
+    [type]="type"
+    [id]="id"
+    [name]="name"
+    [placeholder]="placeholder"
+    [(ngModel)]="value"
+  />
+  <div class="drop-down-style" fxLayoutAlign="center center" matRipple (click)="OnDropDownClicked()"><mat-icon>{{ iconName }}</mat-icon></div>
+</div>

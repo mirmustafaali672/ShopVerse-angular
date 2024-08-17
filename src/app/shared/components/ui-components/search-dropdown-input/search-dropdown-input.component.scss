@@ -1,0 +1,36 @@
+.custom-input {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    border: solid;
+    border-width: 0rem;
+    border-radius: 10rem !important;
+    padding: 0.6rem;
+    background-color: var(--primary-bg-color);
+  }
+  
+  
+  .input-class
+  {
+    border: solid;
+    border-width: 0px; 
+    border-radius: 10px; 
+    background-color: var(--primary-bg-color);
+    outline: none;
+  }
+
+  input:focus {
+    border: solid;
+    border-width: 0px; 
+    border-radius: 10px; 
+    background-color: var(--primary-bg-color);
+    outline: none;
+}
+
+.drop-down-style{
+  background: white;
+  border: solid;
+  border-width: 0px;
+  border-radius: 100rem;
+  padding: 0.02rem;
+}

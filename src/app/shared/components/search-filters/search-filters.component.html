@@ -1,1 +1,21 @@
-<p>search-filters works!</p>
+<div fxFlex fxLayout="row">
+  <app-search-dropdown-input class="input-width"
+  id="brand"
+  label="brand"
+  placeholder="Brand"
+  [(ngModel)]="brand">
+</app-search-dropdown-input>
+<app-search-dropdown-input class="input-width"
+  id="Category"
+  label="Category"
+  placeholder="Category"
+  [(ngModel)]="category">
+</app-search-dropdown-input>
+<app-search-dropdown-input class="search-width"
+  id="search"
+  label="Search"
+  placeholder="Search"
+  [(ngModel)]="search">
+</app-search-dropdown-input>
+</div>
+
